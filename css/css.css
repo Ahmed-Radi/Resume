@@ -26,7 +26,6 @@ nav .navbar .navbar-expand-lg{margin-top: 10px;}
     background-color:var(--main-color);
     border-radius: 50%;
 }
-
 .navbar-expand-lg .navbar-nav .nav-link{
     color:#000;
     font-family: var(--main-font);
@@ -82,7 +81,8 @@ nav .navbar .navbar-expand-lg{margin-top: 10px;}
     font-family: var(--font-for-head);
 }
 /*End Information Section*/
-/**/
+/*Start About Section*/
+.about{display:block;}
 .about .col-md-6{
     padding-left: 0;
     padding-right: 0;
@@ -103,9 +103,6 @@ nav .navbar .navbar-expand-lg{margin-top: 10px;}
     width: 100%;
     height: 100%;
 }
-.about .about-info{
-
-}
 .about .about-info h2{
     font-size:50px;
     text-transform: capitalize;
@@ -115,8 +112,53 @@ nav .navbar .navbar-expand-lg{margin-top: 10px;}
 .about .about-info p{
     font-family: var(--font-for-head);
     letter-spacing: 1px;
+    margin-bottom: 15px;
 }
-.about .about-info p>span{
-    color: var(--second-color);
+.about .about-info .info-span{color: var(--second-color);}
+.about .about-info .info-list{width: 100%;}
+.about .about-info .info-list li{
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: 20px;
+    font-family:var(--main-font);
 }
+.about .about-info ul.info-list li span:first-child{
+    font-weight: bold;
+    display: inline-block;
+    color:#000;
+    width: 130px;
+}
+.about .about-info ul.info-list li span{width: calc(100% - 130px);color:#C6C6C6;}
+.about .about-info .info-list li a{text-decoration: none;color:#C6C6C6;}
+.about .about-info .info-list li a:hover{color: var(--second-color);}
+.about .text p,
+.about .text span{
+    font-family: var(--main-font);
+    font-weight:400;
+    font-size:20px;
+}
+.about .text span{color:var(--main-color);margin-right: 10px;font-weight: 700;}
+.about .text button{
+    padding: 19px 39px;
+    border-radius: 35px;
+    background-color:var(--main-color);
+    border: none;
+}
+.about .text button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+}
+.about .text button:hover a{color: #000;}
+/*End About Section*/
+
+
+
+
+
+
+
 /**/
