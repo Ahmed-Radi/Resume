@@ -26,12 +26,14 @@ nav .navbar .navbar-expand-lg{margin-top: 10px;}
     background-color:var(--main-color);
     border-radius: 50%;
 }
+.navbar-expand-lg .navbar-nav{margin-right:65px;}
 .navbar-expand-lg .navbar-nav .nav-link{
     color:#000;
     font-family: var(--main-font);
     display: inline-block;
     position: relative;
     padding-left: 34px;
+    padding-right: 20px;
 }
 .navbar-expand-lg .navbar-nav .nav-link.disabled{color:rgb(190, 190, 190);}
 .navbar-expand-lg .navbar-nav .nav-link::after{
