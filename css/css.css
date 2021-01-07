@@ -54,10 +54,17 @@ nav .navbar .navbar-expand-lg{margin-top: 10px;}
 
 
 /*Start Information Section*/
-.information{overflow: hidden;}
+.information{
+    overflow: hidden;
+    min-height: 92vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 .information .info-l{
     z-index: -1;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -84,7 +91,7 @@ nav .navbar .navbar-expand-lg{margin-top: 10px;}
 }
 /*End Information Section*/
 /*Start About Section*/
-.about{display:block;}
+.about{display:block;margin-top: -2px;}
 .about .col-md-6{
     padding-left: 0;
     padding-right: 0;
@@ -95,7 +102,6 @@ nav .navbar .navbar-expand-lg{margin-top: 10px;}
     overflow: hidden;
 }
 .about .about-img{
-
     width: 100%;
     height: 100%;
     background-image: url("../images/AhmedRadi.jpg");
@@ -104,6 +110,9 @@ nav .navbar .navbar-expand-lg{margin-top: 10px;}
 .about .about-img img{
     width: 100%;
     height: 100%;
+}
+.about .about-info{
+    padding: 20px;
 }
 .about .about-info h2{
     font-size:50px;
